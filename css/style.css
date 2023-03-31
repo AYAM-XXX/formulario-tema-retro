@@ -1,0 +1,121 @@
+*{
+	padding:0;
+	margin:0;
+}
+body,html{
+	height:100%;	
+}
+body{
+	background-image:url(imagens/Fundo.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.mulherI{
+	width:250px;
+	height:710px;
+	position:absolute;
+	left:71%;
+	top:1%;
+}
+@font-face{
+	src:url(font/BerkshireSwash-Regular.ttf);
+	font-family:"font-retro";
+}
+#h1{
+	box-sizing:border-box;
+	text-align:center;
+    width:50%;
+    height:15%;
+    margin:0 auto;
+    padding-top:10px;
+    font-size:30px;
+    color:#69583c;
+    font-family:"font-retro";
+}
+form{
+	border-radius:10px;
+	border:3px solid rgba(255,255,255,0);
+	width:50%;
+	margin:0 auto;
+	text-align:center;
+	
+}
+.back,.back1{
+	height:100%;
+	border-radius:10px;
+	box-sizing:border-box;
+	border:3px solid rgba(255,255,255,0);
+	background-color:rgba(249,223,177,0.70);
+}
+legend{
+	font-size:30px;
+	letter-spacing:3px;
+	color:#69583c;
+	font-family:"font-retro";
+}
+fieldset{
+	box-sizing:border-box;
+	border:3px solid rgba(255,255,255,0);
+}
+fieldset h3{
+	text-align:left;
+	letter-spacing:3px;
+	font-size:20px;
+	margin:10px 65px;
+	font-family:"font-retro";
+	color:#69583c;
+}
+fieldset input{
+	display:inline block;
+	width:80%;
+	border-radius:8px;
+	border:1px solid rgba(255,255,255,0);
+	height:30px;
+	margin:0 auto;
+	background-color:#f0f0f0;
+}
+fieldset select{
+	display:inline block;
+	width:80%;
+	height:30px;
+	border-radius:8px;
+	border:1px solid rgba(255,255,255,0);
+	margin:0 auto;
+	margin-bottom:20px;
+	background-color:#f0f0f0;
+}
+fieldset textarea{
+	display:inline block;
+	width:80%;
+	height:100px;
+	border-radius:8px;
+	border:1px solid rgba(255,255,255,0);
+	background-color:#f0f0f0;
+	margin:0 auto;
+	margin-bottom:85px;
+	resize:none;
+}
+
+fieldset input[type=submit]{
+	width:25%;
+	height:65px;
+	margin-bottom:35px;
+	background-image:url(imagens/buttom.png);
+	background-position:center;
+   background-color:rgba(249,223,177,0.70);
+	background-repeat:no-repeat;
+	font-family:"font-retro";
+	font-size:30px;
+	color:#510000;
+	background-size:cover;
+
+	border:none;
+	
+}
+fieldset input[type=text]:focus,fieldset input[type=email],fieldset textarea,fieldset select{
+	outline:0;
+}
+
+
+
